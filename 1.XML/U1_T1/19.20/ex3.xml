@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concesionario>
+    <coches>
+        <marca nombre="Citroën" pais="Francia">
+            <coche matricula="1234ZAB" anio_matric="2003" modelo="C4" n_plazas="5" cc="80"/>
+            <coche matricula="1234CDE" anio_matric="2004" modelo="C4 Picasso" n_plazas="5" cc="80"/>
+        </marca>
+        <marca nombre="Land Rover" pais="Inglaterra">
+            <coche matricula="1234ABC" anio_matric="2005" modelo="Range Rover" n_plazas="5" cc="100"/>
+            <coche matricula="1234DEF" anio_matric="2006" modelo="Range Rover Evoque" n_plazas="5" cc="100"/>
+        </marca>
+        <marca nombre="Ford" pais="América">
+            <coche matricula="1234GHI" anio_matric="2007" modelo="Focus" n_plazas="5" cc="80"/>
+            <coche matricula="1234JKL" anio_matric="2008" modelo="Fiesta" n_plazas="5" cc="95"/>
+        </marca>
+        <marca nombre="Audi" pais="Alemania">
+            <coche matricula="1234MNO" anio_matric="2009" modelo="A6" n_plazas="5" cc="90"/>
+            <coche matricula="1234PQR" anio_matric="2010" modelo="A7" n_plazas="5" cc="90"/>
+        </marca>
+        <marca nombre="Volkswagen" pais="Alemania">
+            <coche matricula="1234STV" anio_matric="2011" modelo="Golf" n_plazas="5" cc="85"/>
+            <coche matricula="1234WXY" anio_matric="2012" modelo="Polo" n_plazas="5" cc="90"/>
+        </marca>
+    </coches>
+</concesionario>

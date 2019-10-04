@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<centrocomercial>
+    <tiendas>
+        <tienda parcelas="2" metros="70" nombre="Pull-Bear">
+            <encargado>
+                <nombre>Juan</nombre>
+                <apellidos>Pérez</apellidos>
+                <telefono>955555555</telefono>
+                <NSS>12345678956</NSS>
+            </encargado>
+        </tienda>
+        <tienda parcelas="2" metros="70" nombre="Bershka">
+            <encargado>
+                <nombre>Lucas</nombre>
+                <apellidos>Granado</apellidos>
+                <telefono>955555555</telefono>
+                <NSS>12345678956</NSS>
+            </encargado>
+        </tienda>
+        <tienda parcelas="2" metros="70" nombre="TGB">
+            <encargado>
+                <nombre>Fran</nombre>
+                <apellidos>Gómez</apellidos>
+                <telefono>955555555</telefono>
+                <NSS>12345678956</NSS>
+            </encargado>
+        </tienda>
+        <tienda parcelas="2" metros="70" nombre="Stradivarius">
+            <encargado>
+                <nombre>Sara</nombre>
+                <apellidos>Sánchez</apellidos>
+                <telefono>955555555</telefono>
+                <NSS>12345678956</NSS>
+            </encargado>
+        </tienda>
+        <tienda parcelas="2" metros="70" nombre="Inside">
+            <encargado>
+                <nombre>Guillermo</nombre>
+                <apellidos>Del Toro</apellidos>
+                <telefono>955555555</telefono>
+                <NSS>12345678956</NSS>
+            </encargado>
+        </tienda>
+        <tienda parcelas="2" metros="70" nombre="Game">
+            <encargado>
+                <nombre>Juan</nombre>
+                <apellidos>Martínez</apellidos>
+                <telefono>955555555</telefono>
+                <NSS>12345678956</NSS>
+            </encargado>
+        </tienda>
+        <tienda parcelas="2" metros="70" nombre="Burguer King">
+            <encargado>
+                <nombre>Jamie</nombre>
+                <apellidos>Alexander Fresar</apellidos>
+                <telefono>955555555</telefono>
+                <NSS>12345678956</NSS>
+            </encargado>
+        </tienda>
+        <tienda parcelas="2" metros="70" nombre="McDonald's">
+            <encargado>
+                <nombre>Johnny</nombre>
+                <apellidos>Depp</apellidos>
+                <telefono>955555555</telefono>
+                <NSS>12345678956</NSS>
+            </encargado>
+        </tienda>
+        <tienda parcelas="2" metros="70" nombre="Sprinter">
+            <encargado>
+                <nombre>Tim</nombre>
+                <apellidos>Burton</apellidos>
+                <telefono>955555555</telefono>
+                <NSS>12345678956</NSS>
+            </encargado>
+        </tienda>
+        <tienda parcelas="2" metros="70" nombre="Décimas">
+            <encargado>
+                <nombre>Jon</nombre>
+                <apellidos>Wan</apellidos>
+                <telefono>955555555</telefono>
+                <NSS>12345678956</NSS>
+            </encargado>
+        </tienda>
+    </tiendas>
+</centrocomercial>

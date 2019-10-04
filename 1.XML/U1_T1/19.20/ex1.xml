@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libro>
+    <titulo>El cuento de la criada</titulo>
+    <autor>Margaret Atwood</autor>
+    <editorial>Salamandra</editorial>
+    <n_paginas>416</n_paginas>
+    <capitulos>
+        <capitulo inicio="5" final="95">La llegada</capitulo>
+        <capitulo inicio="96" final="150">La mera doña</capitulo>
+        <capitulo inicio="151" final="260">El visitante</capitulo>
+        <capitulo inicio="261" final="299">Amor</capitulo>
+        <capitulo inicio="300" final="360">Venganza</capitulo>
+        <capitulo inicio="361" final="416">Muerte</capitulo>
+    </capitulos>
+</libro>
