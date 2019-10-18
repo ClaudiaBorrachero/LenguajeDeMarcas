@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cateneMontuose SYSTEM "DTD3.dtd">
+<cateneMontuose>
+    <catenaMontuosa>
+        <monte>
+            <nombre>Alto</nombre>
+            <regione>Molise</regione>
+        </monte>
+        <monte>
+            <nombre>Gordo</nombre>
+            <altezza>Tres mil</altezza>
+        </monte>
+    </catenaMontuosa>
+</cateneMontuose>

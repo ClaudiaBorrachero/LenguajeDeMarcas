@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE movies SYSTEM "DTD6.dtd">
+<movies>
+    <movie type="adventure" review="3">
+        <title>Oblivion: El tiempo del olvido</title>
+        <nationality>Americana</nationality>
+        <directors>
+            <director>Joseph Kosinski</director>
+        </directors>
+        <actors>
+            <actor>Tom Cruise</actor>
+            <actor>Andrea Riseborough</actor>
+            <actor>Olga Kurylenko</actor>
+        </actors>
+    </movie>
+    <movie type="thriller" review="3">
+            <title>Déjame salir</title>
+            <directors>
+                <director>Jordan Peele</director>
+                <director>Jordan Peele</director>
+            </directors>
+            <actors>
+                <actor>Tom Cruise</actor>
+                <actor>Andrea Riseborough</actor>
+                <actor>Olga Kurylenko</actor>
+            </actors>
+        </movie>
+</movies>

@@ -1,0 +1,5 @@
+<!ELEMENT cateneMontuose(catenaMontuosa*)>
+<!ELEMENT catenaMontuosa(monte+)>
+<!ELEMENT monte(nome, regione?, altezza?)>
+<!ELEMENT nome 
+

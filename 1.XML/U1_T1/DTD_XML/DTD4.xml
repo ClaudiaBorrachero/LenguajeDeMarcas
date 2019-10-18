@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE stock SYSTEM "DTD4.dtd">
+<stock>
+    <new-car>
+        <model>Citroen C4</model>
+        <price>3500</price>
+    </new-car>
+    <used-car>
+        <model>Audi a4</model>
+        <price>5000</price>
+        <mileage>120000</mileage>
+        <condition>Buen estado</condition>
+    </used-car>
+</stock>

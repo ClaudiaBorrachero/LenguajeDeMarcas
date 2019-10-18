@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE partido SYSTEM "DTD5.dtd">
+<partido>
+    <equipo name="Betis" tipo="local">
+        <goles>
+            <gol tipo="penalti">
+                <jugador>Joaquín</jugador>
+                <minuto>23</minuto>
+            </gol>
+            <gol tipo="penalti">
+                    <jugador>Joaquín</jugador>
+                    <minuto>52</minuto>
+                </gol>
+        </goles>
+        <tarjetas>
+            <tarjeta tipo="amarilla">
+                <jugador>Joaquín</jugador>
+            </tarjeta>
+            <tarjeta tipo="roja">
+                    <jugador>Joaquín</jugador>
+                </tarjeta>
+        </tarjetas>
+    </equipo>
+    <equipo name="Sevilla" tipo="visitante">
+            <goles>
+                <gol tipo="penalti">
+                    <jugador>Banega</jugador>
+                    <minuto>23</minuto>
+                </gol>
+            </goles>
+            <tarjetas>
+                <tarjeta tipo="roja">
+                        <jugador>Banega</jugador>
+                    </tarjeta>
+            </tarjetas>
+        </equipo>
+</partido>

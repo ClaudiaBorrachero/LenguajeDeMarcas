@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<club>
+    <socios tipo="socio" nombre="">
+        <socio>
+            <nombre>Claudia Nerea</nombre>
+            <apellidos>Borrachero</apellidos>
+            <direccion>calle CDC,3</direccion>
+        </socio>
+    </socios>
+    <sedes>
+        <sede>
+            <direccion>calle CDC,3</direccion>
+            <capacidad>100</capacidad>
+        </sede>
+    </sedes>
+</club>

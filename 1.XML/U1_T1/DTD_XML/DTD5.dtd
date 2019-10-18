@@ -1,0 +1,12 @@
+<!ELEMENT partido (equipo+) >
+<!ELEMENT equipo (goles*, tarjetas*) >
+<!ELEMENT goles (gol*) >
+<!ELEMENT gol (jugador, minuto) >
+<!ELEMENT jugador (#PCDATA) >
+<!ELEMENT minuto (#PCDATA) >
+<!ELEMENT tarjetas (tarjeta*) >
+<!ATTLIST equipo name CDATA #REQUIRED
+                    tipo CDATA #REQUIRED >
+<!ATTLIST gol tipo CDATA #REQUIRED >
+<!ELEMENT tarjeta (jugador) >
+<!ATTLIST tarjeta tipo CDATA #REQUIRED >

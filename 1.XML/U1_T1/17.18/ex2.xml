@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<equipo>
+    <nombre>Lenovo Legion</nombre>
+    <fabricante>Lenovo</fabricante>
+    <precio>892</precio>
+    <pantalla_cm>39.62</pantalla_cm>
+    <pantalla_pulg>15.6</pantalla_pulg>
+    <resolucion>1920x1080</resolucion>
+    <calidad_imagen>Full HD</calidad_imagen>
+    <tipo_pantalla>IPS</tipo_pantalla>
+    <tipo_ram>DDR4</tipo_ram>
+</equipo>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cine nombre="Cinesa">
+    <cartelera>
+        <peliculas>
+            <pelicula sala="1">
+                <nombre>Al filo del mañana</nombre>
+                <resumen>William Cage, un soldado muerto en acción mientras combatía contra unos alienígenas que invadieron la Tierra, entra en un bucle temporal en el cual revive constantemente y vuelve a intentar salvar el planeta, mejorando sus habilidades, conociendo mejor al enemigo, y acercándose cada vez más a la victoria. Sin embargo, el tiempo corre en su contra.</resumen>
+                <sesiones>
+                    <sesion>22:50</sesion>
+                    <sesion>00:30</sesion>
+                    <sesion>10:30</sesion>
+                </sesiones>
+                <director>Doug Liman</director>
+                <protagonistas>
+                    <protagonista>Tom Cruise</protagonista>
+                    <protagonista>Emily Blunt</protagonista>
+                </protagonistas>
+            </pelicula>
+            <pelicula sala="2">
+                <nombre>Alicia en el País de las Maravillas</nombre>
+                <resumen>Alicia, ahora una joven de 19 años de edad, regresa al País de las Maravillas para encontrar su verdadero destino y terminar con el gobierno de terror de la malvada reina Roja.</resumen>
+                <sesiones>
+                    <sesion>22:50</sesion>
+                    <sesion>00:30</sesion>
+                    <sesion>10:30</sesion>
+                </sesiones>
+                <director>Tim Burton</director>
+                <protagonistas>
+                    <protagonista>Johnny Depp</protagonista>
+                    <protagonista>Mia Wasikowska</protagonista>
+                </protagonistas>
+            </pelicula>
+            <pelicula sala="3">
+                <nombre>Expediente Warren: El caso Enfield</nombre>
+                <resumen>Ed y Lorraine Warren, renombrados demonólogos e investigadores de lo paranormal, se enfrentan de nuevo a las fuerzas infernales. En esta ocasión, viajan hasta el norte de Londres para tratar de ayudar a una madre y sus cuatro hijos, quienes habitan en una casa plagada de espíritus malignos.</resumen>
+                <sesiones>
+                    <sesion>22:50</sesion>
+                    <sesion>00:30</sesion>
+                    <sesion>10:30</sesion>
+                </sesiones>
+                <director>James Wan</director>
+                <protagonistas>
+                    <protagonista>Vera Farmiga</protagonista>
+                    <protagonista>Patrick Wilson</protagonista>
+                </protagonistas>
+            </pelicula>
+            <pelicula sala="3">
+                <nombre>Deadpool 2</nombre>
+                <resumen>Deadpool debe proteger a Russell, un adolescente mutante, de Cable, un soldado del futuro genéticamente modificado. Deadpool se alía con otros superhéroes para poder derrotar al poderoso Cable.</resumen>
+                <sesiones>
+                    <sesion>22:50</sesion>
+                    <sesion>00:30</sesion>
+                    <sesion>10:30</sesion>
+                </sesiones>
+                <director>David Leitch</director>
+                <protagonistas>
+                    <protagonista>Ryan Reynolds</protagonista>
+                    <protagonista>Josh Brolin</protagonista>
+                </protagonistas>
+            </pelicula>
+            <pelicula sala="1">
+                <nombre>Ocean's 8</nombre>
+                <resumen>Debbie Ocean, la hermana de Danny, pretende cometer el atraco del siglo durante la gala Met que se celebra en Nueva York: quiere robar un collar valorado en más de 150 millones de dólares. Debbie embarca en la misión a siete ladronas expertas.</resumen>
+                <sesiones>
+                    <sesion>22:50</sesion>
+                    <sesion>00:30</sesion>
+                    <sesion>10:30</sesion>
+                </sesiones>
+                <director>Gary Ross</director>
+                <protagonistas>
+                    <protagonista>Sandra Bullock</protagonista>
+                    <protagonista>Cate Blanchett</protagonista>
+                </protagonistas>
+            </pelicula>
+        </peliculas>
+    </cartelera>
+</cine>

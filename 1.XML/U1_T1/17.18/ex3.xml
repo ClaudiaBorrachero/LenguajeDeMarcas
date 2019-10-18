@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<horario>
+    <dia nombre="lunes">
+        <asignatura aula="DAW1" h_comienzo="15:00" h_final="17:00">
+            <nombre>Programacion</nombre>
+            <profesor>Chema</profesor>
+        </asignatura>
+        <asignatura aula="DAW1" h_comienzo="19:15" h_final="20:15">
+            <nombre>Lenguaje de Marcas</nombre>
+            <profesor>Juan Diego</profesor>
+        </asignatura>
+    </dia>
+    <dia nombre="martes">
+        <asignatura aula="DAW1" h_comienzo="15:00" h_final="17:00">
+            <nombre>Programacion</nombre>
+            <profesor>Chema</profesor>
+        </asignatura>
+        <asignatura aula="DAW1" h_comienzo="18:15" h_final="21:15">
+            <nombre>Base de datos</nombre>
+            <profesor>Teresa</profesor>
+        </asignatura>
+    </dia>
+    <dia nombre="jueves">
+        <asignatura aula="DAW1" h_comienzo="15:00" h_final="18:00">
+            <nombre>Base de datos</nombre>
+            <profesor>Teresa</profesor>
+        </asignatura>
+        <asignatura aula="DAW1" h_comienzo="18:15" h_final="19:15">
+            <nombre>Programacion</nombre>
+            <profesor>Chema</profesor>
+        </asignatura>
+    </dia>
+    <dia nombre="viernes">
+        <asignatura aula="DAW1" h_comienzo="15:00" h_final="18:00">
+            <nombre>Lenguaje de Marcas</nombre>
+            <profesor>Juan Diego</profesor>
+        </asignatura>
+        <asignatura aula="DAW1" h_comienzo="18:15" h_final="21:15">
+            <nombre>Programacion</nombre>
+            <profesor>Chema</profesor>
+        </asignatura>
+    </dia>
+</horario>

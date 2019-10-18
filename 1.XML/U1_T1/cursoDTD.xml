@@ -1,0 +1,5 @@
+<!ELEMENT curso(asignatura+)
+<!ELEMENT asignatura(horas?, profesor)
+<!ELEMENT profesor (nombre, NSS?)
+
+

@@ -1,0 +1,10 @@
+<!ELEMENT movies (movie+)>
+<!ELEMENT movie (title, nationality?, directors, actors)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT nationality (#PCDATA)>
+<!ELEMENT directors (director+)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT actors (actor+)>
+<!ELEMENT actor (#PCDATA)>
+<!ATTLIST movie type (adventure|science_fiction|thriller|other)
+                    review (1|2|3|4|5) "3">

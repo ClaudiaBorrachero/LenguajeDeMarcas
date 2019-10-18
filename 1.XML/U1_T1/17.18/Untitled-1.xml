@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <clase>
+    <nombreC></nombreC>
+    <modulo>
+        <asignatura1>
+            <nombreA1></nombreA1>
+            <horarioA1></horarioA1>
+        </asignatura1>
+    </modulo>
+    <profesor>
+        <nombreP></nombreP>
+        <apellidosP></apellidosP>
+        <dniP></dniP>
+        <cursoP></cursoP>
+    </profesor>
+    <alumnno>
+        <nombreAL></nombreAL>
+        <apellidosAL></apellidosAL>
+        <cursoAL></cursoAL>
+    </alumnno>
+   </clase>
