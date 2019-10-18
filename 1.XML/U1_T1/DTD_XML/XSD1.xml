@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<note
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="XSD1.xsd">
+    <mydate>14/10/2019</mydate>
+    <to>Javier</to>
+    <from>Claudia</from>
+    <heading>Exercises</heading>
+    <body>Don't forget to do the programming exercises and upload them to the web!</body>
+    <sign>Claudia Borrachero</sign>
+</note>
