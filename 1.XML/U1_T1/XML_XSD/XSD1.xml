@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<note xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XSD1.xsd">
-    <mydate>14-10-2019</mydate>
+<note
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="XSD1.xsd">
+    <mydate>2019-10-14</mydate>
     <to>Javier</to>
     <from>Claudia</from>
     <heading>Exercises</heading>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="clase1.xsd">
+<clase>
+   <alumno>
+        <nombre>Claudia Nerea</nombre>
+        <apellidos>Borrachero Mallofret</apellidos>
+    </alumno>
+    <profesor>
+        <nombre>Juan Diego</nombre>
+        <apellidos>Pérez</apellidos>
+    </profesor>
+    <profesor>                
+        <nombre>Chema</nombre>
+        <apellidos>García</apellidos>
+    </profesor>
+</clase>
+</clase>
