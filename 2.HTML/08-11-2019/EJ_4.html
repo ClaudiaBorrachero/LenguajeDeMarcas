@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EJ_4</title>
+</head>
+<body>
+    <fieldset style="border-color: blue; box-shadow: blue;" >
+            <h1>Reservation Request</h1>
+            <form>
+                <fieldset>
+                    <legend style="color: blue;">General Information</legend>
+                    <table>
+                        <tr>
+                            <td><label for="fecha">Arrival date: </label></td>
+                            <td><input type="date" name="fecha"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="noches">Nights: </label></td>
+                            <td><input type="text" name="noches"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="adultos">Adults: </label></td>
+                            <td>
+                                <select name="adultos">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6+</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="ninios">Children: </label></td>
+                            <td>
+                                <select name="adultos">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6+</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <fieldset>
+                    <legend style="color: blue;">Preferences</legend>
+                    <table>
+                        <tr>
+                            <td><label for="room">Room type: </label></td>
+                            <td><input type="radio" name="modo" value="room"/>Standard</td>
+                            <td><input type="radio" name="modo" value="room"/>Business</td>
+                            <td><input type="radio" name="modo" value="room"/>Suite</td>
+                        </tr>
+                        <tr>
+                            <td><label for="bed">Bed type: </label></td>
+                            <td><input type="radio" name="modo" value="bed"/>King</td>
+                            <td><input type="radio" name="modo" value="bed"/>Double Double</td>
+                        </tr>
+                        <tr><td><input type="checkbox" name="modo" value="bed"/>Standard</td></tr>
+                    </table>
+                </fieldset>
+                <fieldset>
+                    <legend style="color: blue;">Contact Information</legend>
+                    <table>
+                        <tr>
+                            <td><label for="nombre">Name: </label></td>
+                            <td><input type="text" name="nombre"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email: </label></td>
+                            <td><input type="email" name="email"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="telef">Phone: </label></td>
+                            <td><input type="text" name="telef"></td>
+                        </tr>
+                    </table>
+                </fieldset>
+            <p>
+                <input type="submit" value="Submit Reservation"/>
+                <input type="submit" value="Clear">
+            </p>
+        </form>
+    </fieldset>
+</body>
+</html>
