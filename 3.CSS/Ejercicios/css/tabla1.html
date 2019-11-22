@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TABLA</title>
+    <link rel="stylesheet" href="css/tabla1.css">
+</head>
+<body>
+    <h1>HORARIO DE CLASE CURSO 2018-2019</h1>
+    <table border="1" style="width: 150px;;">
+        <tr>
+            <th><h3>H</h3>oras</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+        <tr>
+            <td id="hora">8:00</td>
+            <td rowspan="2">Matemáticas</td>
+            <td>Lengua</td>
+            <td>Inglés</td>
+            <td colspan="2">Ciencias</td>
+        </tr>
+        <tr>
+            <td id="hora">9:00</td>
+            <td>Historia</td>
+            <td>Ciencias</td>                
+            <td>Matemáticas</td>
+            <td>Lengua</td>
+        </tr>
+        <tr>
+            <td id="hora">10:00</td>
+            <td colspan="5" align="middle"><h3>RECREO</h3></td>
+        </tr>
+        <tr>
+            <td id="hora">10:30</td>
+            <td>Inglés</td>
+            <td rowspan="2">Ciencias</td>
+            <td>Matemáticas</td>
+            <td>Lengua</td>
+            <td>Historia</td>
+        </tr>
+        <tr>
+            <td id="hora">11:30</td>
+            <td>Historia</td>
+            <td>Ciencias</td>
+            <td>Matemáticas</td>
+            <td>Inglés</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td><label for="email">Email* </label></td>
+            <td><input type="email" name="email"></td>
+        </tr>
+    </table>
+    <p>
+        <input type="submit" value="Enviar"/>
+    </p>
+</body>
+</html>

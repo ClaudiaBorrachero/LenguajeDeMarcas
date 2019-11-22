@@ -1,0 +1,12 @@
+h1,h2,strong,em,td,ul li ul li,input,textarea{
+    color: red;
+}
+.location{
+    color: blue;
+}
+label{
+    color: blue;
+}
+#twitter{
+    color: red;
+}

@@ -1,0 +1,34 @@
+/* This is a comment */
+/* Style Sheet for Jaberwocky Tutorial */
+
+/* Body */
+body {background-image: "paper.gif";background-size: auto;}
+
+/* Headers */
+h1 {color:maroon; font-size:20pt}
+h2 {color: sandybrown;}
+
+/* HR (Hard Rule = line) */
+hr {color:navy; padding: 10px;}
+
+/* Paragraphs */
+p {font-size:12pt; margin-left: 15px;}
+p.verse {color:maroon; margin-left: 60px} /*LOS ELEMENTOS P QUE TENGAN UNA CLASE VERSE*/
+p.comment {color: red;}
+
+/* Divs */
+div.reference {color:slategray; margin-left: 40px;}
+
+/* Links */
+a:link     {color:blue} /*COLOR DEL LINK*/
+a:visited  {color:yellow} /*CUANDO YA HEMOS VISITADO EL LINK*/
+a:hover    {color:black} /*CUANDO PONEMOS EL RATÓN ENCIMA*/
+a:active   {color:green} /*MIENTRAS LO PINCHAMOS,TERMINA CUANDO SE SUELTA*/
+
+/* Navigation */
+
+/* Classes used by all html elements */
+
+/* Ids */
+
+
