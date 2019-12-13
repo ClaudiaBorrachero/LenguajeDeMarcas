@@ -1,0 +1,15 @@
+li{
+    background-color: rgb(177, 234, 236);
+    color: black;
+    display: inline-block;
+    height: 3rem;
+    width: 24%;
+    padding-top: 1rem;
+}
+li:hover{
+    background-color:white;
+    color: rgb(177, 234, 236);
+}
+ul{
+    background-color: rgb(177, 234, 236);;
+}
