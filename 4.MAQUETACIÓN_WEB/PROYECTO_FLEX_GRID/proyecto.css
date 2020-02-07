@@ -26,6 +26,8 @@
     color: white;
     background-color: blue;
     margin-bottom: 15px;
+    height: 300px;
+    width: 380px;
 }
 #separar{
     padding-top: 0.5rem;
@@ -51,6 +53,8 @@
 }
 #formu{
     grid-area: formu;
+    height: 300px;
+    width: 380px;
 }
 fieldset{
     padding-left: 6px;

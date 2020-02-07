@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 250px 250px 250px 250px 250px;
+    grid-template-areas: 
+    "blue"
+    "red"
+    "green"
+    "yellow"
+    "gray";
+}
+.blue{
+    grid-area: blue;
+    background-color: blue;
+}
+.red{
+    grid-area: red;
+    background-color: red;
+}
+.green{
+    grid-area: green;
+    background-color: green;
+}
+.yellow{
+    grid-area: yellow;
+    background-color: yellow;
+}
+.gray{
+    grid-area:gray;
+    background-color: gray;
+}
+
+@media screen and (min-width:576px){
+    .container{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 200px 200px 600px;
+        grid-template-areas: 
+        "red red"
+        "gray green"
+        "yellow blue";
+    }
+    .blue{
+        grid-area: blue;
+        background-color: blue;
+    }
+    .red{
+        grid-area: red;
+        background-color: red;
+    }
+    .green{
+        grid-area: green;
+        background-color: green;
+    }
+    .yellow{
+        grid-area: yellow;
+        background-color: yellow;
+    }
+    .gray{
+        grid-area:gray;
+        background-color: gray;
+    }
+}
+
+@media screen and (min-width:992px){
+    .container{
+        display: grid;
+        grid-template-columns: 20% 30% 35% 15%;
+        grid-template-rows: 400px 400px;
+        grid-template-areas: 
+        "blue blue blue blue"
+        "gray yellow red green";
+    }
+    .blue{
+        grid-area: blue;
+        background-color: blue;
+    }
+    .red{
+        grid-area: red;
+        background-color: red;
+    }
+    .green{
+        grid-area: green;
+        background-color: green;
+    }
+    .yellow{
+        grid-area: yellow;
+        background-color: yellow;
+    }
+    .gray{
+        grid-area:gray;
+        background-color: gray;
+    }
+}
