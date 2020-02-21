@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: 100px 200px 200px 200px;
+    grid-template-areas: 
+    "title buscar"
+    "primero primero"
+    "segundo segundo"
+    "tercero tercero";
+}
+.title{
+    grid-area: title;
+    text-align: center;
+    color: cyan;
+    background-color: rgb(44, 12, 12);
+    border-top: 5px solid orangered;
+}
+.subtitle{
+    display: none;
+}
+.buscar{
+    grid-area: buscar;
+}
+.primero{
+    grid-area: primero;
+}
+.segundo{
+    grid-area: segundo;
+}
+.tercero{
+    grid-area: tercero;
+}
+@media screen and(min-width:576px){
+
+}
+@media screen and(min-width:992px){
+.container{
+    display: grid;
+    grid-template-columns: 30% 20% 10% 20% 10% 10%;
+    grid-template-rows: 100px 200px 100px 400px 400px;
+    grid-template-areas: 
+    ". . . buscar buscar buscar"
+    "title . topbar topbar topbar topbar"
+    "subtitle . . . . ."
+    "primero primero . . . ."
+    "segundo segundo tercero tercero tercero tercero"
+}
+.buscar{
+    grid-area: buscar;
+}
+.title{
+    grid-area: title;
+    text-align: right;
+    color: cyan;
+    background-color: rgb(44, 12, 12);
+    border-top: 5px solid orangered;
+}
+.subtitle{
+    grid-area: subtitle;
+    text-align: right;
+    color: cyan;
+    background-color: rgb(44, 12, 12);
+}
+.topbar{
+    grid-area: topbar;
+    text-align: center;
+    color: cyan;
+    background-color: rgb(44, 12, 12);
+    border-top: 5px solid orangered;
+}
+.primero{
+    grid-area: primero;
+}
+.segundo{
+    grid-area: segundo;
+    text-align: center;
+    color: orange;
+    background-color: rgb(44, 12, 12);
+}
+.tercero{
+    grid-area: tercero;
+}
+}

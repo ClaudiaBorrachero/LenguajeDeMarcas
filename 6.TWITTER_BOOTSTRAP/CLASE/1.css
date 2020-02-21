@@ -1,0 +1,21 @@
+div.row > div{
+    height: 150px;
+}
+.azul{
+    background-color: blue;
+}
+.rojo{
+    background-color: red;
+}
+.amarillo{
+    background-color: yellow;
+}
+.naranja{
+    background-color: orange;
+}
+.verde{
+    background-color: green;
+}
+.amarilloverdoso{
+    background-color: greenyellow;
+}
