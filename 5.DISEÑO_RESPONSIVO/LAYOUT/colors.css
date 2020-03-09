@@ -1,86 +1,579 @@
 *{
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url("movil.png");
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#letra{
+    font-family: 'Yellowtail';
+}
+#letra2{
+    font-family: 'Lalezar';
 }
 .container{
-    display: grid;
-    grid-template-columns: 80% 20%;
-    grid-template-rows: 100px 200px 200px 200px;
-    grid-template-areas: 
-    "title buscar"
-    "primero primero"
-    "segundo segundo"
-    "tercero tercero";
+    margin: 20px auto;
+    width: 90%;
+}
+.arriba{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: rgb(44, 12, 12);
+    border-top: 4px solid orangered;
+}
+.navbar{
+    width: 20%;
+}
+.icon>i{
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 80px;
+    width: 100%;
+    color: white;
+}
+.buscar{
+    background-color: rgb(44, 12, 12);
+    width: 20%;
+    margin-right: 30px;
+}
+.buscar>input{
+    margin-top: 30px;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+}
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.menu_item {
+    padding: 0.5em;
+    display: none;
 }
 .title{
-    grid-area: title;
+    background-color: rgb(44, 12, 12);
     text-align: center;
     color: cyan;
-    background-color: rgb(44, 12, 12);
-    border-top: 5px solid orangered;
+    width: 60%;
 }
 .subtitle{
     display: none;
 }
-.buscar{
-    grid-area: buscar;
+.image{
+    display: none;
 }
 .primero{
-    grid-area: primero;
+    width: 95%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(44, 12, 12);
+}
+.primero>div{
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.uno,.texto{
+    margin-top: 5px;
+    width: 100%;
+    height: 50px;
+}
+.texto{
+    text-align: justify;
+    margin-top: 5px;
+    width: 100%;
+    height: 150px;
+}
+.bordeabajo{
+    border-bottom: 1px solid rgba(78, 15, 15, 0.514);
+    width: 95%;
 }
 .segundo{
-    grid-area: segundo;
+    margin-top: 20px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(44, 12, 12, 0.733);
+    color: orangered;
+}
+.segundo>div{
+    width: 100%;
+    margin-top: 15px;
+}
+.dos{
+    width: 100%;
+    height: 50px;
+    margin-left: 15px;
+}
+.tres{
+    width: 100%;
+    height: 100px;
+    margin-left: 15px;
+}
+.cuatro{
+    width: 30%;
+    height: 40px;
+    margin-right: 50px;
+    margin-left: 35px;
+    text-align: center;
+    background-color: orangered;
+}
+.cuatro>button{
+    height: 40px;
+    width: 100%;
+    background-color: orangered;
+    border: 1px solid orangered;
 }
 .tercero{
-    grid-area: tercero;
+    margin-top: 20px;
+    width: 90%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
 }
-@media screen and(min-width:576px){
-
+.tercero>div{
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 15px;
+    color: rgb(44, 12, 12);
 }
-@media screen and(min-width:992px){
-.container{
-    display: grid;
-    grid-template-columns: 30% 20% 10% 20% 10% 10%;
-    grid-template-rows: 100px 200px 100px 400px 400px;
-    grid-template-areas: 
-    ". . . buscar buscar buscar"
-    "title . topbar topbar topbar topbar"
-    "subtitle . . . . ."
-    "primero primero . . . ."
-    "segundo segundo tercero tercero tercero tercero"
+.cinco{
+    width: 100%;
+    height: 150px;
 }
-.buscar{
-    grid-area: buscar;
+.seis{
+    width: 100%;
+    height: 100px;
 }
-.title{
-    grid-area: title;
+.footer{
+    margin-top: 100px;
+    height: 50px;
+    width: 100%;
     text-align: right;
-    color: cyan;
-    background-color: rgb(44, 12, 12);
-    border-top: 5px solid orangered;
 }
-.subtitle{
-    grid-area: subtitle;
-    text-align: right;
-    color: cyan;
-    background-color: rgb(44, 12, 12);
+@media only screen and (min-width: 576px) {
+    body{
+        background-image: url("tablet.jpg");
+        height: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #letra{
+        font-family: 'Yellowtail';
+    }
+    #letra2{
+        font-family: 'Lalezar';
+    }
+    .container{
+        margin: 20px auto;
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .arriba{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        background-color: rgb(44, 12, 12);
+        border-top: 4px solid orangered;
+        margin-bottom: 50px;
+    }
+    .navbar{
+        width: 20%;
+    }
+    .icon>i{
+        margin-top: 30px;
+        margin-left: 30px;
+        height: 80px;
+        width: 100%;
+        color: white;
+    }
+    .buscar{
+        background-color: rgb(44, 12, 12);
+        width: 20%;
+        margin-right: 30px;
+    }
+    .buscar>input{
+        margin-top: 30px;
+        width: 100%;
+        height: 20px;
+        text-align: center;
+    }
+    header {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu_item {
+        padding: 0.5em;
+        display: none;
+    }
+    .title{
+        background-color: rgb(44, 12, 12);
+        text-align: center;
+        color: cyan;
+        width: 60%;
+    }
+    .subtitle{
+        display: none;
+    }
+    .primero{
+        display: flex;
+        flex-wrap: wrap;
+        width: 45%;
+        height: 300px;
+        color: rgb(44, 12, 12);
+        margin-right: 50px;
+    }
+    .primero>div{
+        display: flex;
+        width: 100%;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .image{
+        display: flex;
+        flex-wrap: wrap;
+        width: 20%;
+        margin-top: 20px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+    }
+    .uno{
+        display: flex;
+        flex-wrap: wrap;
+        width: 200px;
+    }
+    .uno,.texto{
+        margin-top: 5px;
+        width: 100%;
+        height: 50px;
+    }
+    .unoo{
+        width: 100%;
+        height: 200px;
+    }
+    .texto{
+        text-align: justify;
+        margin-top: 5px;
+        width: 80%;
+        height: 150px;
+    }
+    .bordeabajo{
+        border-bottom: 1px solid rgba(78, 15, 15, 0.514);
+        width: 95%;
+    }
+    .segundo{
+        display: flex;
+        flex-wrap: wrap;
+        width: 45%;
+        height: 600px;
+        background-color: rgba(44, 12, 12, 0.733);
+        color: orangered;
+    }
+    .segundo>div{
+        width: 100%;
+        margin-top: 15px;
+    }
+    .dos{
+        width: 100%;
+        height: 50px;
+        margin-left: 15px;
+    }
+    .tres{
+        width: 100%;
+        height: 100px;
+        margin-left: 15px;
+    }
+    .cuatro{
+        width: 30%;
+        height: 40px;
+        margin-right: 50px;
+        margin-left: 30px;
+        text-align: center;
+        background-color: orangered;
+    }
+    .cuatro>button{
+        height: 40px;
+        width: 100%;
+        margin-left: 15px;
+        background-color: orangered;
+        border: 1px solid orangered;
+    }
+    .tercero{
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 400px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .tercero>div{
+        width: 100%;
+        margin-top: 15px;
+        color: rgb(44, 12, 12);
+    }
+    .cinco{
+        width: 100%;
+        height: 150px;
+    }
+    .seis{
+        width: 100%;
+        height: 100px;
+    }
+    .footer{
+        margin-top: 50px;
+        height: 50px;
+        width: 100%;
+        text-align: right;
+    }
 }
-.topbar{
-    grid-area: topbar;
-    text-align: center;
-    color: cyan;
-    background-color: rgb(44, 12, 12);
-    border-top: 5px solid orangered;
+@media only screen and (min-width: 992px) {
+    body{
+        background-image: url("pc.jpg");
+        height: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #a{
+        order: 1;
+    }
+    #b{
+        order: 2;
+        width: 50%;
+    }
+    #c{
+        order: 3;
+    }
+    #e{
+        order: 1;
+    }
+    #f{
+        order: 2;
+    }
+    #g{
+        order: 4;
+        width: 30%;
+    }
+    #h{
+        order: 5;
+        width: 30%;
+    }
+    #i{
+        order: 6;
+        width: 30%;
+    }
+    #j{
+        order: 3;
+        width: 30%;
+    }
+    #letra{
+        font-family: 'Yellowtail';
+    }
+    #letra2{
+        font-family: 'Lalezar';
+    }
+    .container{
+        margin: 20px auto;
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .arriba{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        background-color: rgb(44, 12, 12);
+        border-top: 4px solid orangered;
+        margin-bottom: 50px;
+    }
+    .navbar{
+        width: 60%;
+    }
+    .icon{
+        display: none;
+    }
+    .buscar{
+        background-color: rgb(44, 12, 12);
+        width: 20%;
+        margin-right: 30px;
+    }
+    .buscar>input{
+        border-radius: 10px;
+        margin-top: 35px;
+        width: 100%;
+        height: 20px;
+        text-align: center;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
 }
-.primero{
-    grid-area: primero;
-}
-.segundo{
-    grid-area: segundo;
-    text-align: center;
-    color: orange;
-    background-color: rgb(44, 12, 12);
-}
-.tercero{
-    grid-area: tercero;
-}
+    header {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+        display: flex;
+    }
+    .menu_item{
+        margin-top: 30px;
+        height: 50px;
+        text-align: center;
+        display: flex;
+        width: 23%;
+        color: white;
+    }
+    .menu_item:hover{
+        color: cyan;
+    }
+    .title{
+        background-color: rgb(44, 12, 12);
+        text-align: center;
+        color: cyan;
+        width: 40%;
+    }
+    .title>div>h1{
+        margin-bottom: 3px;
+    }
+    .title>div{
+        width: 80%;
+    }
+    .subtitle{
+        display: flex;
+        width: 100%;
+    }
+    .subtitle>p{
+        width: 100%;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .primero{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 300px;
+        color: rgb(44, 12, 12);
+    }
+    .primero>div{
+        display: flex;
+        width: 60%;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .image{
+        display: flex;
+        flex-wrap: wrap;
+        height: 70px;
+        width: 70px;
+    }
+    img{
+        height: 60px;
+        width: 60px;
+        margin-right: 10px;
+    }
+    .uno{
+        display: flex;
+        flex-wrap: wrap;
+        width: 200px;
+    }
+    .uno,.texto{
+        margin-top: 5px;
+        width: 100%;
+        height: 50px;
+    }
+    .unoo{
+        width: 100%;
+        height: 200px;
+    }
+    .texto{
+        text-align: justify;
+        margin-top: 5px;
+        width: 100%;
+        height: 150px;
+    }
+    .bordeabajo{
+        border-bottom: 1px solid rgba(78, 15, 15, 0.514);
+        width: 190%;
+    }
+    .segundo{
+        display: flex;
+        width: 60%;
+        height: 450px;
+        background-color: rgba(44, 12, 12, 0.733);
+        color: orangered;
+    }
+    .dos{
+        height: 50px;
+    }
+    .tres{
+        height: 50px;
+        margin-bottom: 25px;
+    }
+    .tress{
+        width: 100%;
+    }
+    .cuatro{
+        width: 50%;
+        height: 50px;
+        margin-right: 50px;
+    }
+    .cuatro>button{
+        height: 50px;
+        margin-left: 15px;
+        text-align: center;
+        background-color: orangered;
+        border: 1px solid orangered;
+    }
+    #f{
+        width: 50%;
+    }
+    .tercero{
+        display: flex;
+        flex-wrap: wrap;
+        width: 30%;
+        text-align: justify;
+        margin-left: 5%;
+        height: 300px;
+    }
+    .tercero>div{
+        width: 100%;
+        margin-top: 15px;
+        margin-left: 15px;
+        color: rgb(44, 12, 12);
+    }
+    .cinco{
+        width: 100%;
+        height: 150px;
+    }
+    .seis{
+        width: 100%;
+        height: 100px;
+    }
+    .footer{
+        margin-top: 50px;
+        height: 50px;
+        width: 100%;
+        text-align: right;
+    }
+    footer{
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
 }
