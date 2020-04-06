@@ -1,0 +1,57 @@
+//Variables con colores
+$grey:grey;
+$header-background:$grey;
+$link-normal:black;
+$link-hover:yellow;
+$link-visited:blue;
+$link-active:green;
+
+//Cabecera
+.header{
+    background-color: $header-background;
+}
+
+//Tamaños de los iconos LISTA
+$sizes:(40px,80px,160px);
+
+//Breakpoints MAPA
+$breakpoints:(
+    "pequeño": 576px,
+    "mediano": 768px,
+    "grande": 992px,
+)
+
+//Interpolacion en selectores
+$button-type : "error";
+$btn-color : red;
+
+.btn-#{$button-type}{
+    background-color : $btn-color;
+}
+
+//Interpolacion en funciones
+$fondo : "img/fondos/defualt.png";
+
+.container{
+    background-image: url('#{$fondo}');
+}
+
+//Interpolacion en comentarios
+$autor: 'Claudia';
+/*
+    Web desarrollada por #{$autor}
+*/
+
+a{
+    color: $link-normal;
+    text-decoration: none;
+    &:hover{
+        color: $link-hover;
+    }
+    &:visited{
+        color: $link-visited;
+    }
+    &:active{
+        color: $link-active;
+    }
+}

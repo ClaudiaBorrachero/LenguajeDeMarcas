@@ -1,0 +1,98 @@
+.container {
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+  background-color: rgba(175, 175, 175, 0.747);
+  width: 90%;
+  margin-left: 5%;
+  color: black;
+}
+
+h2 {
+  background-color: rgba(0, 0, 255, 0.445);
+}
+
+.container > div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 10%;
+}
+
+.cabecera {
+  width: 100%;
+  background-color: rgba(0, 0, 255, 0.445);
+}
+
+.info > div {
+  text-align: right;
+}
+
+.foto, .info {
+  height: 300px;
+  margin-top: 30px;
+}
+
+.foto {
+  width: 40%;
+}
+
+.info {
+  width: 60%;
+}
+
+.info > div {
+  margin-top: 30px;
+  margin-right: 5%;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  margin-left: 5%;
+  margin-top: 30px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+a:hover {
+  color: yellow;
+}
+a:visited {
+  color: green;
+}
+a:active {
+  color: black;
+}
+
+.todo {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.todo > div {
+  margin-left: 5%;
+}
+
+.quien_soy, .idiomas, .programas {
+  width: 30%;
+  height: 400px;
+}
+
+.experiencia {
+  width: 60%;
+  margin-bottom: 50px;
+}
+
+.educacion {
+  width: 60%;
+}
+
+/*# sourceMappingURL=cv.css.map */

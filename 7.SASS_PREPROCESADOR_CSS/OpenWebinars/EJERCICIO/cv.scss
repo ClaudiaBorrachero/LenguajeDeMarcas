@@ -1,0 +1,129 @@
+$grey:rgba(175, 175, 175, 0.747);
+$white:white;
+$black:black;
+$link-normal: blue;
+$link-hover: yellow;
+$link-visited: green;
+$link-active: black;
+$back:rgba(0, 0, 255, 0.445);
+
+$container-width:90%;
+$margin-container:5%;
+$margin-bottom:50px;
+$margin-top:30px;
+$img-h-w:200px;
+$height:300px;
+$h2:400px;
+$width:50%;
+$w1:40%;
+$w2:60%;
+$w3:30%;
+$w4:100%;
+$div-width:80%;
+$margin-div:10%;
+$radio:50%;
+
+.container{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    background-color: $grey;
+    width: $container-width;
+    margin-left: $margin-container;
+    color:$black;
+}
+
+h2{
+    background-color: $back;
+}
+
+.container>div{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: $margin-div;
+}
+
+.cabecera{
+    width: $w4;
+    background-color: $back;
+}
+
+.info>div{
+    text-align: right;
+}
+
+.foto,.info{
+    height: $height;
+    margin-top: $margin-top;
+}
+
+.foto{
+    width: $w1;
+}
+
+.info{
+    width: $w2;
+}
+
+.info>div{
+    margin-top: $margin-top;
+    margin-right: $margin-container;
+}
+
+img{
+    height: $img-h-w;
+    width: $img-h-w;
+    margin-left: $margin-container;
+    margin-top: $margin-top;
+    border-radius: $radio;
+    -webkit-border-radius: $radio;
+    -moz-border-radius: $radio;
+    -ms-border-radius: $radio;
+    -o-border-radius: $radio;
+}
+
+a {
+    color: $link-normal;
+    text-decoration: none;
+    &:hover {
+        color: $link-hover;
+    }
+    &:visited {
+        color: $link-visited;
+    }
+    &:active {
+        color: $link-active;
+    }
+}
+
+.todo{
+    width: $container-width;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: $margin-top;
+}
+
+.todo>div{
+    margin-left: $margin-container;
+}
+
+.quien_soy,.idiomas,.programas{
+    width: $w3;
+    height: $h2;
+}
+
+.experiencia{
+    width: $w2;
+    margin-bottom:50px;
+}
+
+.educacion{
+    width: $w2;
+}
+
+$autor:"Claudia Borrachero";
+
+$breakpoints:(
+    "pequeño": 576px,
+    "mediano": 768px,
+    "grande": 992px,
+)

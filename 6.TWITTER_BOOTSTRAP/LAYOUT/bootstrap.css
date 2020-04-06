@@ -1,0 +1,419 @@
+*{
+    box-sizing: border-box;
+}
+.body{
+    background-color: rgb(255, 236, 184);
+}
+.container{
+    width: 90%;
+}
+.arriba{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(44, 12, 12);
+    border-top: 4px solid orangered;
+}
+.arriba>div{
+    width: 33.3%;
+}
+.title{
+    color: cyan;
+    text-align: center;
+    margin-top: 15px;
+}
+.icon>i{
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 100%;
+    color: white;
+}
+.buscar>input{
+    margin-top: 30px;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+}
+.primero{
+    height: 300px;
+    color: rgb(44, 12, 12);
+}
+.segundo{
+    height: 430px;
+    background-color: rgba(44, 12, 12, 0.733);
+    color: orangered;
+}
+.tercero{
+    color: rgb(44, 12, 12);
+}
+.primero,.segundo,.tercero{
+    width: 90%;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: justify;
+}
+.primero>div.segundo>div,.tercero>div{
+    width: 80%;
+    margin-top: 35px;
+}
+.cuatro{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background-color: orangered;
+}
+.cuatro>button{
+    height: 40px;
+    width: 100%;
+    background-color: orangered;
+    border: 1px solid orangered;
+}
+.bordeabajo{
+    border-bottom: 1px solid rgba(78, 15, 15, 0.514);
+    width: 95%;
+}
+.footer{
+    margin-top: 100px;
+    width: 80%;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    text-align: right;
+}
+img,.nav-item,.subtitle,.buscar1{
+    display: none;
+}
+#letra{
+    font-family: 'Yellowtail';
+}
+#letra2{
+    font-family: 'Lalezar';
+}
+@media only screen and (min-width: 576px) {
+    .body{
+        background-color: rgb(255, 236, 184);
+    }
+    .container{
+        width: 90%;
+    }
+    .arriba{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgb(44, 12, 12);
+        border-top: 4px solid orangered;
+    }
+    .arriba>div{
+        width: 33.3%;
+    }
+    .title{
+        color: cyan;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .icon>i{
+        margin-left: 30px;
+        margin-bottom: 20px;
+        width: 100%;
+        color: white;
+    }
+    .buscar>input{
+        margin-top: 30px;
+        width: 100%;
+        height: 20px;
+        text-align: center;
+    }
+    .primero{
+        height: auto;
+        color: rgb(44, 12, 12);
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .uno{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .image{
+        width: 20%;
+        height: 55px;
+    }
+    .texto{
+        width: 80%;
+    }
+    img{
+        display: flex;
+        height: 50px;
+        width: 50px;
+    }
+    .dosito{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .segundo{
+        height: 430px;
+        background-color: rgba(44, 12, 12, 0.733);
+        color: orangered;
+    }
+    .tercero{
+        color: rgb(44, 12, 12);
+    }
+    .primero,.segundo,.tercero{
+        width: 100%;
+        margin-top: 50px;
+        margin-right: 20px;
+        margin-left: 20px;
+        text-align: justify;
+    }
+    .primero>div.segundo>div,.tercero>div{
+        width: 100%;
+        margin-top: 35px;
+    }
+    .cuatro{
+        width: 100%;
+        height: 40px;
+        text-align: center;
+        background-color: orangered;
+    }
+    .cuatro>button{
+        height: 40px;
+        width: 100%;
+        background-color: orangered;
+        border: 1px solid orangered;
+    }
+    .bordeabajo{
+        border-bottom: 1px solid rgba(78, 15, 15, 0.514);
+        width: 95%;
+    }
+    .footer{
+        margin-top: 100px;
+        width: 80%;
+        margin-bottom: 30px;
+        text-align: right;
+    }
+    .nav-item,.subtitle,.buscar1{
+        display: none;
+    }
+    #letra{
+        font-family: 'Yellowtail';
+    }
+    #letra2{
+        font-family: 'Lalezar';
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .body{
+        background-color: rgb(255, 236, 184);
+    }
+    .container{
+        width: 90%;
+    }
+    .arriba{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgb(44, 12, 12);
+        border-top: 4px solid orangered;
+    }
+    .title{
+        color: cyan;
+        text-align: center;
+        margin-top: 20px;
+    }
+    header {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .nav{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nav-item{
+        text-align: right;
+        display: flex;
+        flex-wrap: wrap;
+        width: 23%;
+        height: 80px;
+        margin-top: 40px;
+        font-family: 'Lalezar';
+    }
+    .nav-link{
+        color: white;
+    }
+    .nav-link:active{
+        color: cyan;
+    }
+    .nav-link:hover{
+        color: cyan;
+    }
+    .menu{
+        margin-left: 15%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .subtitle,.nav-item{
+        display: flex;
+        text-align: center;
+    }
+    .subtitle{
+        margin-left: 20%;
+        text-align: right;
+    }
+    .buscar1{
+        display: flex;
+        width: 100%;
+        margin-bottom: 30px;
+}
+    i{
+        width: 20%;
+        margin-top: 35px;
+        margin-left: 40%;
+        margin-right: -100px;
+        color: rgb(44, 12, 12);
+    }
+    .buscar1>input{
+        margin-top: 30px;
+        margin-right: 2%;
+        width: 80%;
+        background-color: rgb(44, 12, 12);
+        border: 1px solid rgb(44, 12, 12);
+        color: white;
+        border-radius: 15px;
+        
+}
+    .primero{
+        height: auto;
+        color: rgb(44, 12, 12);
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .uno{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .uno1>h2{
+        width: 100%;
+    }
+    .image{
+        width: 20%;
+        height: 55px;
+    }
+    .texto{
+        width: 80%;
+    }
+    img{
+        display: flex;
+        height: 50px;
+        width: 50px;
+    }
+    .dosito{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .segundo{
+        height: 350px;
+        width: 60%;
+        background-color: rgba(44, 12, 12, 0.733);
+        color: orangered;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .tercero{
+        color: rgb(44, 12, 12);
+    }
+    .primero,.segundo,.tercero{
+        width: 100%;
+        margin-top: 50px;
+        margin-right: 20px;
+        margin-left: 20px;
+        text-align: justify;
+    }
+    .primero>div,.tercero>div{
+        width: 100%;
+        margin-top: 35px;
+    }
+    .cuatro{
+        height: 40px;
+        text-align: center;
+    }
+    .cuatro>button{
+        height: 40px;
+        width: 80%;
+        border: 1px solid orangered;
+    }
+    .bordeabajo{
+        border-bottom: 1px solid rgba(78, 15, 15, 0.514);
+        width: 95%;
+    }
+    .footer{
+        margin-top: 100px;
+        width: 80%;
+        margin-bottom: 30px;
+        text-align: right;
+    }
+    footer{
+        margin-right: 30px;
+    }
+    .icon,.buscar{
+        display: none;
+    }
+    #letra{
+        font-family: 'Yellowtail';
+    }
+    #letra2{
+        font-family: 'Lalezar';
+    }
+    #a{
+        order: 1;
+    }
+    #b{
+        order: 2;
+    }
+    #e{
+        order: 1;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #f{
+        order: 2;
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #g{
+        order: 4;
+        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #g>div,#h>div,#i>div{
+        width: 100%;
+        margin-right: 30px;
+        text-align: left;
+    }
+    #h{
+        order: 5;
+        width: 40%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #i{
+        order: 6;
+        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #j{
+        order: 3;
+        width: 30%;
+        margin-left: 5%;
+    }
+}
