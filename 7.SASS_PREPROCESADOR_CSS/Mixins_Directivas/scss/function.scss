@@ -1,0 +1,25 @@
+@function calcular_anchura($cols,$total){
+    @return percentage($cols/$total);
+}
+table{
+    width: calcular_anchura(10,10 );
+    height: auto;
+    margin-bottom: $margin-div;
+}
+th>h3{
+    margin-left: $margin-div;
+    text-align: left;
+}
+th>h4{
+    text-align: right;
+    margin-right: $margin-div;
+}
+
+$autor:"Claudia Borrachero";
+
+
+$breakpoints:(
+    "pequeño": 576px,
+    "mediano": 768px,
+    "grande": 992px,
+)

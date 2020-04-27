@@ -1,0 +1,152 @@
+.container {
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+  background-color: #2e2e2e;
+  color: #b3b3b3;
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+}
+
+h2 {
+  background-color: rgba(175, 175, 175, 0.747);
+  color: black;
+}
+
+.container > div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 10%;
+}
+
+.cabecera {
+  width: 100%;
+  background-color: rgba(175, 175, 175, 0.747);
+  color: black;
+}
+
+.info > div {
+  text-align: right;
+}
+
+.foto, .info {
+  height: 300px;
+  margin-top: 30px;
+}
+
+.foto {
+  width: 40%;
+}
+
+.info {
+  width: 60%;
+}
+
+.info > div {
+  margin-top: 30px;
+  margin-right: 5%;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  margin-left: 5%;
+  margin-top: 30px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+a:hover {
+  color: yellow;
+}
+a:visited {
+  color: green;
+}
+a:active {
+  color: black;
+}
+
+.todo {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.todo > div {
+  margin-left: 5%;
+}
+
+.quien_soy, .idiomas, .programas {
+  width: 30%;
+  height: 400px;
+}
+
+.experiencia {
+  width: 60%;
+  margin-bottom: 50px;
+}
+
+.educacion, .modulos {
+  width: 60%;
+}
+
+.verde {
+  background-color: rgba(175, 175, 175, 0.747);
+  color: #2e2e2e;
+}
+
+.rojo {
+  background-color: #b3b3b3;
+  color: #2e2e2e;
+}
+
+.morado {
+  background-color: rgba(175, 175, 175, 0.747);
+  color: #2e2e2e;
+}
+
+.cyan {
+  background-color: #b3b3b3;
+  color: #2e2e2e;
+}
+
+.amarillo {
+  background-color: rgba(175, 175, 175, 0.747);
+  color: #2e2e2e;
+}
+
+.gris {
+  background-color: #b3b3b3;
+  color: #2e2e2e;
+}
+
+.naranja {
+  background-color: rgba(175, 175, 175, 0.747);
+  color: #2e2e2e;
+}
+
+table {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10%;
+}
+
+th > h3 {
+  margin-left: 10%;
+  text-align: left;
+}
+
+th > h4 {
+  text-align: right;
+  margin-right: 10%;
+}
+
+/*# sourceMappingURL=cv.css.map */

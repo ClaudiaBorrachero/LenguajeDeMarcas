@@ -1,0 +1,26 @@
+
+.topnav>a{
+    float: left;
+    display: block;
+    text-align: center;
+    color: white;
+}
+.topnav>a:hover{
+    @if $light-theme==true{
+        color: yellow;
+        }@else if $dark-theme{
+            color: $black;
+        }
+    
+}
+.sticky {
+    @if $light-theme==true{
+        background-color: rgba(0, 0, 255, 0.445);
+        }@else if $dark-theme{
+            background-color:$grey;
+            color: $black;
+        }
+    position: fixed;
+    top: 0px;
+    width:89%;
+  }
