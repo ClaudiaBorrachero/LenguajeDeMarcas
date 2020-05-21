@@ -1,0 +1,9 @@
+.container {
+  width: 90%;
+}
+
+.info > div {
+  text-align: right;
+}
+
+/*# sourceMappingURL=mixins.css.map */
