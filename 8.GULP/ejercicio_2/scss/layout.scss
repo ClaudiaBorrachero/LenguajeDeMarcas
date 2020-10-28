@@ -1,0 +1,172 @@
+.container{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    @if $light-theme==true{
+        background-color: $grey;
+        }@else if $dark-theme{
+            background-color:$gris;
+            color: $grey2;
+        }
+        margin-top: 30px;
+    width: $container-width;
+    height: auto;
+    margin-left: $margin-container;
+}
+
+h2{
+    @if $light-theme==true{
+    background-color: $back;
+    }@else if $dark-theme{
+        background-color:$grey;
+        color: $black;
+    }
+}
+
+.container>div{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: $margin-div;
+}
+
+.cabecera{
+    width: $w4;
+    @if $light-theme==true{
+        background-color: $back;
+        }@else if $dark-theme{
+            background-color:$grey;
+            color: $black;
+        }
+}
+
+.topnav>a{
+    width: $w3;
+    margin-left: $margin-top;
+    margin-top: $margin-top;
+    height: $margin-bottom;
+}
+
+.foto,.info{
+    height: $height;
+    margin-top: $margin-top;
+}
+
+.foto{
+    width: $w1;
+}
+
+.info{
+    width: $w2;
+}
+
+.info>div{
+    margin-top: $margin-top;
+    margin-right: $margin-container;
+}
+
+img{
+    height: $img-h-w;
+    width: $img-h-w;
+    margin-left: $margin-container;
+    margin-top: $margin-top;
+    border-radius: $radio;
+    -webkit-border-radius: $radio;
+    -moz-border-radius: $radio;
+    -ms-border-radius: $radio;
+    -o-border-radius: $radio;
+}
+
+a {
+    color: $link-normal;
+    text-decoration: none;
+    &:hover {
+        color: $link-hover;
+    }
+    &:visited {
+        color: $link-visited;
+    }
+    &:active {
+        color: $link-active;
+    }
+}
+
+.todo{
+    width: $container-width;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: $margin-top;
+}
+
+.todo>div{
+    margin-left: $margin-container;
+}
+
+.quien_soy,.idiomas,.programas{
+    width: $w3;
+    height: $h2;
+}
+
+.experiencia{
+    width: $w2;
+    margin-bottom:50px;
+}
+
+.educacion,.modulos{
+    width: $w2;
+}
+
+.verde{
+    @if $light-theme==true{
+        background-color: $verde;
+        }@else if $dark-theme{
+            background-color:$grey;
+            color: $gris;
+        }
+}
+.rojo{
+    @if $light-theme==true{
+        background-color: $rojo;
+        }@else if $dark-theme{
+            background-color:$grey2;
+            color: $gris;
+        }
+}
+.morado{
+    @if $light-theme==true{
+        background-color: $morado;
+        }@else if $dark-theme{
+            background-color:$grey;
+            color: $gris;
+        }
+}
+.cyan{
+    @if $light-theme==true{
+        background-color: $cyan;
+        }@else if $dark-theme{
+            background-color:$grey2;
+            color: $gris;
+        }
+}
+.amarillo{
+    @if $light-theme==true{
+        background-color: $amarillo;
+        }@else if $dark-theme{
+            background-color:$grey;
+            color: $gris;
+        }
+}
+.gris{
+    @if $light-theme==true{
+        background-color: $grey;
+        }@else if $dark-theme{
+            background-color:$grey2;
+            color: $gris;
+        }
+}
+.naranja{
+    @if $light-theme==true{
+        background-color: $naranja;
+        }@else if $dark-theme{
+            background-color:$grey;
+            color: $gris;
+        }
+}

@@ -1,0 +1,14 @@
+@mixin derecha {
+    text-align:right;
+}
+@mixin centrado{
+    width: 90%;
+}
+
+.container{
+    @include centrado();
+}
+
+.info>div{
+    @include derecha();
+}
